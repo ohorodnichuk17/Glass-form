@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration Form</title>
+   <link rel="stylesheet" href="register.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+   <section>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="box">
+         <div class="square" style="--i:0;"></div>
+         <div class="square" style="--i:1;"></div>
+         <div class="square" style="--i:2;"></div>
+         <div class="square" style="--i:3;"></div>
+         <div class="square" style="--i:4;"></div>
+         <div class="container">
+            <div class="form">
+               <h2>Registration Form</h2>
+               <form id="registerForm" class="row" method="post">
+                  <div class="form-group inputBox col-md-12">
+                     <input type="email" class="form-control glass-input" autocomplete="username" aria-required="true"
+                        placeholder="Email" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="Name" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="Phone Number" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input type="password" class="form-control glass-input" autocomplete="new-password"
+                        aria-required="true" placeholder="Password" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input type="password" class="form-control glass-input" autocomplete="new-password"
+                        aria-required="true" placeholder="Confirm Password" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="Street Address" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="City" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="State" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="form-group inputBox col-md-6">
+                     <input class="form-control glass-input" placeholder="Postal Code" />
+                     <span class="text-danger"></span>
+                  </div>
+                  <div class="col-12 inputBox">
+                     <button id="registerSubmit" type="submit" class="w-100  btn-lg   white-button">Register</button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+
+</html>
